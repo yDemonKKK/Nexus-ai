@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #080910;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+  background: #080910;
+}
+
+.sidebar {
+  width: 260px;
+  background: #0d0f19;
+  border-right: 1px solid #202338;
+  padding: 25px 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  font-size: 28px;
+  letter-spacing: 3px;
+  margin-bottom: 35px;
+}
+
+.logo span {
+  color: #8b5cf6;
+}
+
+.new-chat {
+  background: linear-gradient(100deg, #2563eb, #7c3aed);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 13px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.history {
+  margin-top: 35px;
+  color: #777d96;
+  font-size: 13px;
+}
+
+.profile {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.avatar {
+  background: linear-gradient(135deg, #2563eb, #9333ea);
+  padding: 11px 14px;
+  border-radius: 50%;
+}
+
+.main {
+  flex: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  color: #a5a9bd;
+  font-size: 13px;
+}
+
+.status {
+  color: #4ade80;
+}
+
+.welcome {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+}
+
+.orb {
+  width: 90px;
+  height: 90px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-size: 40px;
+  color: white;
+  background: radial-gradient(circle, #6366f1, #312e81, #111827);
+  box-shadow: 0 0 45px #4f46e566;
+}
+
+.welcome h2 {
+  font-size: 30px;
+}
+
+.welcome p {
+  color: #858ba3;
+}
+
+.chat-input {
+  display: flex;
+  gap: 10px;
+  background: #141725;
+  border: 1px solid #30364e;
+  border-radius: 16px;
+  padding: 10px;
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.chat-input input {
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px;
+}
+
+.chat-input button {
+  width: 42px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background: #6546d7;
+  font-size: 22px;
+}
+
+footer {
+  text-align: center;
+  color: #555b70;
+  font-size: 11px;
+  padding: 20px 0 5px;
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+
+  .main {
+    padding: 20px 14px;
+  }
+
+  .welcome h2 {
+    font-size: 24px;
+  }
+}

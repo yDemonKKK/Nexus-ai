@@ -1,0 +1,29 @@
+{
+  "name": "nexus-ai",
+  "version": "1.0.0",
+  "description": "NEXUS - Personal AI Assistant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --host 0.0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yDemonKKK/Nexus-ai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yDemonKKK/Nexus-ai/issues"
+  },
+  "homepage": "https://github.com/yDemonKKK/Nexus-ai#readme",
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "vite": "^8.3.8"
+  }
+}
